@@ -1,18 +1,28 @@
 package day04;
 
 public class Car {
-    private int liter;
-    private double distanceInKm;
+    private int amountOfFuel;
+    private int km;
 
-    public void setLiter(int liter) {
-        this.liter = liter;
+    public int getAmountOfFuel() {
+        return amountOfFuel;
     }
 
-    public void setDistanceInKm(double distanceInKm) {
-        this.distanceInKm = distanceInKm;
+    public void setAmountOfFuel(int amountOfFuel) {
+        this.amountOfFuel = amountOfFuel;
     }
 
-    public double averageLiterPerHundredKm(){
-        return ((double) liter / distanceInKm) * 100.0;
+    public double getKm() {
+        return km;
+    }
+
+    public void setKm(double km) {
+        this.km = (int) km;
+    }
+
+    public double calculateConpsumption(){
+//        return ))double)amountOfFuel*1.0/km) *100);
+//        return 100.0 * amountOfFuel /km;
+        return ((double) amountOfFuel / km) * 100.0;
     }
 }
