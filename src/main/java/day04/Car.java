@@ -2,13 +2,13 @@ package day04;
 
 public class Car {
     private int liter;
-    private int distanceInKm;
+    private double distanceInKm;
 
     public void setLiter(int liter) {
         this.liter = liter;
     }
 
-    public void setDistanceInKm(int distanceInKm) {
+    public void setDistanceInKm(double distanceInKm) {
         this.distanceInKm = distanceInKm;
     }
 
