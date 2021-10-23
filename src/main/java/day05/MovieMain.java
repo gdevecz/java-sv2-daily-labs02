@@ -14,7 +14,11 @@ public class MovieMain {
         viewer2.watchMovie(movie,5);
         viewer3.watchMovie(movie,4);
 
+        System.out.println(movie.getName());
+        System.out.println(movie.getDate());
         System.out.println(movie.getRating());
+
+
 
     }
 }
